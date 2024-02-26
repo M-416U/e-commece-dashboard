@@ -9,7 +9,7 @@ import { getSalesCount } from "@/actions/get-sales-count";
 import { getGraphRevenue } from "@/actions/get-graph-revenue";
 import { getStockCount } from "@/actions/get-stock-count";
 import { formatter } from "@/lib/utils";
-import { Overview } from "@/components/Overview";
+import { Overview } from "@/components/overview";
 
 interface DashboardPageProps {
   params: {
