@@ -39,7 +39,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 type ProductFormType = {
   initialData:
     | (Product & {
-        Images: Image[];
+        images: Image[];
       })
     | null;
   categories: Category[];
